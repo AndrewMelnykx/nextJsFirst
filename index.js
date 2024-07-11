@@ -9,3 +9,4 @@ console.log(152*898)//
 let a = 1;
 let b = a; 
 console.log(b); // 1
+console.log("smurfick")

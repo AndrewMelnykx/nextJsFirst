@@ -1,0 +1,4 @@
+import { createContext } from "react";
+export const bearer_context = createContext(
+  "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIxMDYyODUxMTM1MmZjZjBjNzZjMGJkZmM4MjMxMDEyOCIsInN1YiI6IjY1ZTA1NmJiNTI5NGU3MDE4NjRmMzA2ZSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.XEhHZw8L1SXjI4AH1-0lavtgW_DXuuQRYSSYZnDeYY4"
+);

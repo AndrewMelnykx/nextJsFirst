@@ -1,0 +1,172 @@
+.main_filter {
+  border: black 1px solid;
+  width: 19%;
+  height: 87%;
+  flex-grow: 1;
+  padding: 2%;
+  margin-top: 5.5%;
+  box-sizing: border-box;
+  margin-left: 1%;
+  border-radius: 1%;
+  background-color: whitesmoke;
+  box-shadow: 7px 7px 5px black;
+}
+.filter_text {
+  position: absolute;
+  font-size: 200%;
+  margin: 0%;
+  padding: 0%;
+  top: 13%;
+}
+.filter_text:hover {
+  color: aqua;
+}
+#closeImg {
+  width: 65%;
+  height: 105%;
+}
+.close_filter_button {
+  position: absolute;
+  top: 14%;
+  right: 79.94%;
+  width: 3.9%;
+  height: 4.5%;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+#label_filter_select_year {
+  position: absolute;
+  top: 26%;
+  font-size: 40%;
+}
+#label_filter_select_year:hover {
+  color: aqua;
+}
+.filter_genres {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20%;
+  font-size: 140%;
+}
+#label_filter_genres:hover {
+  color: aqua;
+}
+
+.checkbox-input {
+  position: relative;
+  width: 15px;
+  height: 15px;
+  appearance: none;
+  -webkit-appearance: none;
+  background-color: transparent;
+  border: 0.15em solid black;
+  cursor: pointer;
+  border-radius: 30%;
+}
+.checkbox-input:checked::after {
+  content: "";
+  position: absolute;
+  top: -1.8px;
+  left: -1.5px;
+  right: -10px;
+  bottom: -10px;
+  width: 15px;
+  height: 14px;
+  background: purple;
+  cursor: pointer;
+  border-radius: 30%;
+  border: transparent;
+  transition: 3ms;
+}
+.filter_genres {
+  display: flex;
+  flex-direction: column;
+  margin-top: 72%;
+  font-size: 170%;
+  margin-left: 3%;
+}
+
+.filter_genres label {
+  font-size: 60%;
+  cursor: pointer;
+}
+
+.filter_genres input[type="checkbox"] {
+  width: 15px;
+  height: 14px;
+}
+#label_filter_select_genres {
+  position: absolute;
+  margin-top: -1.5%;
+  right: 94%;
+}
+#filter_select_one {
+  position: absolute;
+  top: 22%;
+  width: 16%;
+  border: none;
+  border-bottom: 1px solid black;
+  height: 4%;
+  transition: border-bottom-color 0.3s;
+  padding: 0%;
+  font-size: 110%;
+  background-color: whitesmoke;
+  cursor: pointer;
+}
+
+#filter_select_two {
+  position: absolute;
+  top: 30%;
+  width: 16%;
+  border: none;
+  border-bottom: 1px solid black;
+  height: 4%;
+  transition: border-bottom-color 0.3s;
+  padding: 0%;
+  font-size: 110%;
+  background-color: whitesmoke;
+  cursor: pointer;
+}
+#filter_select_one:hover {
+  border-bottom-color: aqua;
+  color: aqua;
+  font-size: 108%;
+}
+#filter_select_two:hover {
+  border-bottom-color: aqua;
+  color: aqua;
+}
+#label_filter_select_year {
+  position: absolute;
+  top: 27%;
+  font-size: 106%;
+}
+#label_filter_select_year:hover {
+  color: aqua;
+}
+#label_filter_select_option {
+  position: absolute;
+  top: 19%;
+}
+#label_filter_select_option:hover {
+  color: aqua;
+}
+.filter_genres label:hover {
+  color: aqua;
+}
+.reset_filters_button {
+  position: absolute;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  right: 79.95%;
+  top: 34%;
+}
+#reset_filters_image {
+  width: 78%;
+}
+/* #genres_checkbox {
+  position: absolute;
+  margin-bottom: 50%;
+} */

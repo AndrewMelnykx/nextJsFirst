@@ -1,0 +1,54 @@
+.pagination {
+  position: fixed;
+  bottom: 5%;
+  margin-left: 6%;
+  transform: translateX(-50%);
+  z-index: 1000;
+  font-size: 220%;
+  display: flex;
+  list-style-type: none;
+}
+.pagination li {
+  padding: 5%;
+}
+.pagination li a {
+  color: black;
+  text-decoration: none;
+  font-size: 85%;
+}
+.pagination li a:hover {
+  color: aqua;
+}
+.pagination_prior {
+  margin-right: 1%;
+  background-color: black;
+  color: white;
+  padding: 2%;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  color: black;
+  font-size: 80%;
+}
+.pagination_next {
+  margin-right: 1%;
+  background-color: black;
+  color: white;
+  padding: 2%;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  color: black;
+  font-size: 80%;
+}
+.pagination_prior:hover {
+  color: aqua;
+}
+.pagination_next:hover {
+  color: aqua;
+}
+.pagination_prior img,
+.pagination_next img {
+  width: 18px;
+  height: 18px;
+}
